@@ -124,7 +124,7 @@ section>img {
     border-radius: 4px;
 }
 
-.course-buttons button {
+.course-buttons button:hover {
     background-color: #374151;
 }
 
