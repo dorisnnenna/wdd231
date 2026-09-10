@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Doris Nnenna Amuji's WDD231 course home page showcasing web development coursework and projects.">
+    <meta name="author" content="Doris Nnenna Amuji">
+    <title>WDD231|Home</title>
+
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <script src="scripts/course.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+
+
+</head>
+
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/logo.svg" alt="Site logo">
+            <span>Doris Nnenna Amuji</span>
+            <button id="menu-button" aria-label="Open navigation menu">
+                &#9776
+            </button>
+
+        </div>
+    </header>
+
+    <nav id="navigation">
+        <a href="index.html" class="active">Home</a>
+        <a href="#">Chamber</a>
+        <a href="#">Final</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+
+        <section>
+            <h2>About Me</h2>
+            <p>My name is Doris Nnenna Amuji. I am a student learning web development and programming.</p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <img src="images/student-photo.png" alt="Doris Nnenna Amuji">
+        </section>
+        <section>
+            <h2>Web Certificate Courses</h2>
+            <div class="course-buttons">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+
+            <div id="course-container"></div>
+            <p id="credits"></p>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <div class="social-links">
+            <a href="#" aria-label="Github">
+                <img src="images/github.png" alt="Github">
+            </a>
+
+            <a href="#" aria-label="LinkedIn">
+                <img src="images/linkedin.png" alt="LinkedIn">
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <img src="images/Instagram.png" alt="Instagram">
+            </a>
+        </div>
+
+        <p> &copy; <span id="currentyear"></span>
+            Doris Nnenna Amuji,Ogun State,Nigeria</p>
+
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
