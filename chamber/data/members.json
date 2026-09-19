@@ -1,0 +1,72 @@
+[
+    {
+        "name": "DNA Foods and Agro Services",
+        "address": "15 Market Road, Ota, Ogun State",
+        "phone": "+234 803 111 2310",
+        "email": "info@dnafoods.org.ng",
+        "website": "https://example.com",
+        "image": "dna-img.png",
+        "membershipLevel": 3,
+        "otherInfo": "Food supply and agricultural products serving local businesses and households."
+    },
+    {
+        "name": "Ota Digital Solutions",
+        "address": "24 Computer Village Road, Ota, Ogun State",
+        "phone": "+234 803 222 2310",
+        "email": "info@otadigital.edu.ng",
+        "website": "https://example.com",
+        "image": "ota-img.png",
+        "membershipLevel": 2,
+        "otherInfo": "Provides web development, digital marketing, and technology services."
+    },
+    {
+        "name": "Golden Link Pharmacy",
+        "address": "8 Ijoko Road, Ota, Ogun State",
+        "phone": "+234 803 333 2310",
+        "email": "info@goldenlink.com.ng",
+        "website": "https://example.com",
+        "image": "golden-img.png",
+        "membershipLevel": 1,
+        "otherInfo": "A community pharmacy providing healthcare products and services."
+    },
+    {
+        "name": "Heritage Furniture Works",
+        "address": "31 Sango-Ota Industrial Road, Ota, Ogun State",
+        "phone": "+234 803 444 2310",
+        "email": "info@heritagefurniture.example",
+        "website": "https://example.com.ng",
+        "image": "heritage-img.png",
+        "membershipLevel": 2,
+        "otherInfo": "Furniture design and production for homes, offices, and businesses."
+    },
+    {
+        "name": "PrimeCare Medical Centre",
+        "address": "10 Ijebu-Ode Road, Ota, Ogun State",
+        "phone": "+234 803 555 2310",
+        "email": "info@primecare.ng",
+        "website": "https://example.com.ng",
+        "image": "prime-img.png",
+        "membershipLevel": 3,
+        "otherInfo": "Provides general medical consultations and community healthcare services."
+    },
+    {
+        "name": "BrightPath Educational Services",
+        "address": "19 Education Road, Ota, Ogun State",
+        "phone": "+234 803 666 2310",
+        "email": "info@brightpath.edu.ng",
+        "website": "https://example.com",
+        "image": "bright-img.png",
+        "membershipLevel": 1,
+        "otherInfo": "Educational support, training, and learning services for students and professionals."
+    },
+    {
+        "name": "Royal Crest Manufacturing",
+        "address": "42 Industrial Estate Road, Ota, Ogun State",
+        "phone": "+234 803 777 2310",
+        "email": "info@royalcrest.com.ng",
+        "website": "https://example.com",
+        "image": "crest-img.png",
+        "membershipLevel": 3,
+        "otherInfo": "Local manufacturing company supporting commercial and industrial businesses."
+    }
+]
