@@ -113,3 +113,85 @@
         text-align: right;
     }
 }
+
+/* ==============================
+HOME PAGE
+Larger Screen Layout
+============================== */
+
+@media screen and (min-width: 700px) {
+
+    /* Hero */
+
+    .hero {
+        margin-bottom: 3rem;
+    }
+
+    .hero-content {
+        width: auto;
+        max-width: 700px;
+        padding: 2rem 3rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2.4rem;
+    }
+
+    .hero-content p {
+        font-size: 1.1rem;
+    }
+
+    /* Home Sections */
+
+    .home-section {
+        margin-bottom: 3rem;
+    }
+
+    .home-section h2 {
+        font-size: 1.8rem;
+    }
+
+    /* Events */
+
+    .events-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .event-card {
+        padding: 1.5rem;
+    }
+
+    /* Weather */
+
+    .weather-section {
+        padding: 2rem;
+    }
+
+    #weather-forecast {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .forecast-card {
+        border-top: none;
+        border-left: 1px solid #d5d9dd;
+        padding: 1rem;
+    }
+
+    .forecast-card:first-child {
+        border-left: none;
+    }
+
+    /* Member Spotlights */
+
+    #spotlight-container {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+
+    .spotlight-card {
+        padding: 1.5rem;
+    }
+
+}

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content=" Welcome to the DNA Ota Chamber of Commerce, connecting businesses and strengthening the business community in Ota, Ogun State, Nigeria.">
+    <meta name="author" content="Doris Nnenna Amuji">
+
+    <meta property="og:title" content="DNA Ota Chamber of Commerce | Home">
+    <meta property="og:description"
+        content="Connect with businesses, discover local opportunities, and engage with the DNA Ota Chamber of Commerce.">
+    <meta property="og:image" content="https://dorisnnenna.github.io/wdd231/chamber/images/logo-temp.svg">
+    <meta property="og:url" content="https://dorisnnenna.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <title>DNA Ota Chamber of Commerce | Home</title>
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-content">
+
+            <img src="images/logo-temp.svg" alt="DNA Ota Chamber of Commerce logo">
+
+            <div class="site-name">
+                <span>DNA Ota</span>
+                <span>Chamber of Commerce</span>
+            </div>
+
+            <nav id="navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="directory.html" class="active">Directory</a>
+                <a href="join.html">Join</a>
+                <a href="discover.html">Discover</a>
+            </nav>
+
+            <button id="theme-button" aria-label="Change color theme">
+                ◐
+            </button>
+
+            <button id="menu-button" aria-label="Open navigation menu">
+                ☰
+            </button>
+
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero"> <img src="images/heroimage.jpg" alt="Business community in Ota, Ogun State">
+            <div class="hero-content">
+                <h1>Connecting Businesses. Strengthening Ota.</h1>
+                <p>Building opportunities and supporting the growth of businesses in our community.</p> <a href="join.html"
+                    class="hero-button">Join the Chamber</a>
+            </div>
+        </section> <!-- Current Events Section -->
+        <section class="home-section events-section">
+            <h2>Current Events</h2>
+            <div class="events-container">
+                <article class="event-card">
+                    <h3>Ota Business Networking Meeting</h3>
+                    <p><strong>Date:</strong> September 28, 2026</p>
+                    <p><strong>Location:</strong> Ota, Ogun State</p>
+                    <p>Connect with local business owners and discover new opportunities for collaboration.</p>
+                </article>
+                <article class="event-card">
+                    <h3>Small Business Development Workshop</h3>
+                    <p><strong>Date:</strong> October 3, 2026</p>
+                    <p><strong>Location:</strong> Ota, Ogun State</p>
+                    <p>Learn practical strategies for growing and strengthening your small business.</p>
+                </article>
+            </div>
+        </section> <!-- Weather Section -->
+        <section class="home-section weather-section">
+            <h2>Ota Weather</h2>
+            <div id="weather-current">
+                <p>Loading current weather...</p>
+            </div>
+            <h3>3-Day Forecast</h3>
+            <div id="weather-forecast">
+                <p>Loading forecast...</p>
+            </div>
+        </section> <!-- Member Spotlights Section -->
+        <section class="home-section spotlight-section">
+            <h2>Member Spotlights</h2>
+            <div id="spotlight-container">
+                <p>Loading member spotlights...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="footer-contact">
+            <h2>DNA Ota Chamber of Commerce</h2>
+            <p>12 Chamber Avenue</p>
+            <p>Ota, Ogun State, Nigeria</p>
+            <p>+234 803 000 2310</p>
+            <p>info@dnaotachamber.org</p>
+        </div>
+
+        <div class="social-links">
+            <a href="#" aria-label="Facebook">
+                <img src="images/facebook.png" alt="facebook">
+
+            </a>
+
+            <a href="#" aria-label="LinkedIn">
+                <img src="images/linkedin.png" alt="LinkedIn"></a>
+
+            <a href="#" aria-label="Instagram">
+                <img src="images/gram.png" alt="Instagram">
+
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Doris Nnenna Amuji</p>
+            <p>&copy; <span id="currentyear"></span> DNA Ota Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
