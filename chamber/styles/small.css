@@ -434,3 +434,139 @@ HOME PAGE
     margin: 0.5rem 0;
     border-radius: 3px;
 }
+
+/* Membership card animation */
+.membership-card {
+    animation: cardEntrance 1s ease-out both;
+}
+
+.membership-card:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.membership-card:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.membership-card:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+@keyframes cardEntrance {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Join page */
+.join-layout {
+    display: grid;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.membership-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.membership-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    font-weight: 600;
+}
+
+.membership-form input,
+.membership-form select,
+.membership-form textarea {
+    padding: 0.75rem;
+    font: inherit;
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+.membership-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.membership-form input[type="submit"] {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.membership-cards {
+    display: grid;
+    gap: 1rem;
+}
+
+.membership-card {
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.membership-card h2 {
+    margin-top: 0;
+}
+
+.modal-button {
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    font: inherit;
+}
+
+dialog {
+    max-width: 500px;
+    border: none;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.close-modal {
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+}
+
+
+/* Thank You page */
+.thank-you {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.thank-you h1 {
+    margin-bottom: 1rem;
+}
+
+#submitted-data {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: left;
+}
+
+#submitted-data h2 {
+    margin-top: 0;
+}
+
+#submitted-data p {
+    margin: 0.75rem 0;
+}

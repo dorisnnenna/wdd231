@@ -195,3 +195,19 @@ Larger Screen Layout
     }
 
 }
+
+/* Join page - larger screens */
+@media screen and (min-width: 700px) {
+
+    .join-layout {
+        grid-template-columns: 2fr 1fr;
+        align-items: start;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .membership-cards {
+        grid-template-columns: 1fr;
+    }
+
+}
