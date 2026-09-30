@@ -436,9 +436,6 @@ HOME PAGE
 }
 
 /* Membership card animation */
-.membership-card {
-    animation: cardEntrance 1s ease-out both;
-}
 
 .membership-card:nth-child(2) {
     animation-delay: 0.2s;
@@ -514,6 +511,7 @@ HOME PAGE
     border: 1px solid #ccc;
     border-radius: 10px;
     text-align: center;
+    animation: cardEntrance 1s ease-out both;
 }
 
 .membership-card h2 {
