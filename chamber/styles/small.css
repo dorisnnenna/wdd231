@@ -568,3 +568,100 @@ dialog::backdrop {
 #submitted-data p {
     margin: 0.75rem 0;
 }
+
+
+/* Discover page */
+.discover-layout {
+    padding: 1rem;
+}
+
+.visitor-message {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+#discover-cards {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+        "card1"
+        "card2"
+        "card3"
+        "card4"
+        "card5"
+        "card6"
+        "card7"
+        "card8";
+}
+
+.discover-card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.discover-card:nth-child(1) {
+    grid-area: card1;
+}
+
+.discover-card:nth-child(2) {
+    grid-area: card2;
+}
+
+.discover-card:nth-child(3) {
+    grid-area: card3;
+}
+
+.discover-card:nth-child(4) {
+    grid-area: card4;
+}
+
+.discover-card:nth-child(5) {
+    grid-area: card5;
+}
+
+.discover-card:nth-child(6) {
+    grid-area: card6;
+}
+
+.discover-card:nth-child(7) {
+    grid-area: card7;
+}
+
+.discover-card:nth-child(8) {
+    grid-area: card8;
+}
+
+.discover-card h2 {
+    margin-top: 0;
+}
+
+.discover-card figure {
+    margin: 0;
+}
+
+.discover-card img {
+    display: block;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.discover-card address {
+    margin: 1rem 0;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.discover-card p {
+    line-height: 1.5;
+}
+
+.discover-card button {
+    padding: 0.6rem 1rem;
+    cursor: pointer;
+    font: inherit;
+}

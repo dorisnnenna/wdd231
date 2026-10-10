@@ -115,7 +115,6 @@
 }
 
 /* ==============================
-HOME PAGE
 Larger Screen Layout
 ============================== */
 
@@ -208,6 +207,49 @@ Larger Screen Layout
 
     .membership-cards {
         grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* Discover page - medium screens */
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+
+    #discover-cards {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas:
+            "card1 card1 card2"
+            "card3 card4 card2"
+            "card5 card6 card7"
+            "card8 card8 card7";
+    }
+
+}
+
+/* Discover page - large screens */
+@media screen and (min-width: 1025px) {
+
+    #discover-cards {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+            "card1 card2 card2 card3"
+            "card1 card4 card5 card3"
+            "card6 card4 card7 card8"
+            "card6 card4 card7 card8";
+    }
+
+}
+
+/* Discover page - image hover effect */
+@media screen and (min-width: 641px) {
+
+    .discover-card img {
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .discover-card img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
     }
 
 }
