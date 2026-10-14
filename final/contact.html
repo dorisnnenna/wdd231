@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order & Inquiry | DNA Frozens & Condiments</title>
+    <meta name="description" content="Place an order or submit an inquiry directly to DNA Frozens & Condiments.">
+    <meta name="author" content="Doris Nnenna Amuji">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+
+
+    <script type="module" src="scripts/main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.webp" alt="DNA Frozens Logo" width="40" height="40">
+            <h1>DNA Frozens & Condiments</h1>
+        </div>
+        <button id="menu-btn" aria-label="Toggle Navigation">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Order / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main style="padding: 2rem 1rem; max-width: 600px; margin: 0 auto;">
+        <h2 style="text-align: center; margin-bottom: 1rem;">Order & Inquiry Form</h2>
+        <p style="text-align: center; margin-bottom: 2rem; color: #555;">Fill out the form below to place a custom order
+            or send us a message.</p>
+
+        <form action="submit.html" method="get"
+            style="background: #ffffff; padding: 2rem; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 1.2rem;">
+            <div>
+                <label for="fullname" style="display: block; font-weight: 500; margin-bottom: 0.3rem;">Full Name
+                    *</label>
+                <input type="text" id="fullname" name="fullname" required
+                    style="width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <div>
+                <label for="email" style="display: block; font-weight: 500; margin-bottom: 0.3rem;">Email Address
+                    *</label>
+                <input type="email" id="email" name="email" required
+                    style="width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <div>
+                <label for="phone" style="display: block; font-weight: 500; margin-bottom: 0.3rem;">Phone Number</label>
+                <input type="tel" id="phone" name="phone"
+                    style="width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 4px;">
+            </div>
+
+            <div>
+                <label for="product" style="display: block; font-weight: 500; margin-bottom: 0.3rem;">Product of
+                    Interest</label>
+                <select id="product" name="product"
+                    style="width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 4px;">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Frozen Chicken Breasts">Frozen Chicken Breasts</option>
+                    <option value="Smoked Fish Fillets">Smoked Fish Fillets</option>
+                    <option value="Organic Tomato Paste">Organic Tomato Paste</option>
+                    <option value="Artisanal Hot Pepper Sauce">Artisanal Hot Pepper Sauce</option>
+                    <option value="Frozen Tiger Prawns">Frozen Tiger Prawns</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="comments" style="display: block; font-weight: 500; margin-bottom: 0.3rem;">Order Details /
+                    Message *</label>
+                <textarea id="comments" name="comments" rows="5" required
+                    style="width: 100%; padding: 0.6rem; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+            </div>
+
+            <button type="submit"
+                style="background-color: #173f35; color: #f8f5ed; border: none; padding: 0.8rem; font-size: 1rem; font-weight: 600; border-radius: 4px; cursor: pointer; margin-top: 0.5rem;">Submit
+                Inquiry</button>
+        </form>
+    </main>
+
+    <footer
+        style="background-color: #173f35; color: #f8f5ed; text-align: center; padding: 1.5rem 1rem; margin-top: 2rem;">
+        <p>&copy; <span id="year"></span> DNA Frozens & Condiments | Doris Nnenna Amuji</p>
+        <p style="margin-top: 0.5rem;">Last Modified: <span id="last-modified"></span></p>
+        <p style="margin-top: 0.5rem;"><a href="attributions.html" style="color: #c49a4a;">Attributions</a> | <a
+                href="https://www.youtube.com/watch?v=BUa4QylPRnk" target="_blank" style="color: #c49a4a;">Video Demonstration</a></p>
+    </footer>
+</body>
+
+</html>

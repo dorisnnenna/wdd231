@@ -1,0 +1,152 @@
+[
+    {
+        "id": "prod-01",
+        "name": "Frozen Boneless Chicken Breasts",
+        "category": "frozen",
+        "price": 12.50,
+        "unit": "1 kg pack",
+        "rating": 4.8,
+        "description": "Premium Grade-A frozen chicken breasts, cleaned and quick-frozen to preserve freshness.",
+        "image": "images/chicken-breast.webp"
+    },
+    {
+        "id": "prod-02",
+        "name": "Smoked Fish Fillets",
+        "category": "frozen",
+        "price": 15.00,
+        "unit": "500 g pack",
+        "rating": 4.9,
+        "description": "Traditionally smoked and vacuum-sealed fish fillets, ready to cook.",
+        "image": "images/smoked-fish.webp"
+    },
+    {
+        "id": "prod-03",
+        "name": "Organic Tomato Paste",
+        "category": "condiment",
+        "price": 4.50,
+        "unit": "400 g jar",
+        "rating": 4.7,
+        "description": "Rich, double-concentrated paste made from vine-ripened organic tomatoes.",
+        "image": "images/tomato-paste.webp"
+    },
+    {
+        "id": "prod-04",
+        "name": "Artisanal Hot Pepper Sauce",
+        "category": "condiment",
+        "price": 6.00,
+        "unit": "250 ml bottle",
+        "rating": 4.9,
+        "description": "Spicy habanero blend infused with garlic and local spices.",
+        "image": "images/chili-sauce.webp"
+    },
+    {
+        "id": "prod-05",
+        "name": "Frozen Tiger Prawns",
+        "category": "frozen",
+        "price": 18.00,
+        "unit": "800 g pack",
+        "rating": 4.8,
+        "description": "Wild-caught, peeled, and deveined jumbo tiger prawns.",
+        "image": "images/tiger-prawns.webp"
+    },
+    {
+        "id": "prod-06",
+        "name": "Seasoned Garlic Curry Paste",
+        "category": "condiment",
+        "price": 5.50,
+        "unit": "300 g jar",
+        "rating": 4.6,
+        "description": "A fragrant blend of roasted garlic, turmeric, and aromatic spices.",
+        "image": "images/curry-paste.webp"
+    },
+    {
+        "id": "prod-07",
+        "name": "Frozen Cut Green Beans",
+        "category": "frozen",
+        "price": 3.80,
+        "unit": "500 g bag",
+        "rating": 4.5,
+        "description": "Farm-fresh green beans, snap-frozen at peak freshness.",
+        "image": "images/green-beans.webp"
+    },
+    {
+        "id": "prod-08",
+        "name": "Spiced Ginger Honey Dip",
+        "category": "condiment",
+        "price": 7.20,
+        "unit": "350 g jar",
+        "rating": 4.8,
+        "description": "Natural wildflower honey infused with organic ginger extract.",
+        "image": "images/ginger-honey.webp"
+    },
+    {
+        "id": "prod-09",
+        "name": "Frozen Sliced Beef Strips",
+        "category": "frozen",
+        "price": 14.00,
+        "unit": "1 kg pack",
+        "rating": 4.7,
+        "description": "Tender grass-fed beef slices ideal for stir-fries and stews.",
+        "image": "images/beef-strips.webp"
+    },
+    {
+        "id": "prod-10",
+        "name": "Smoked Paprika Powder",
+        "category": "condiment",
+        "price": 4.00,
+        "unit": "150 g tin",
+        "rating": 4.9,
+        "description": "Oak-smoked ground sweet red peppers.",
+        "image": "images/paprika.webp"
+    },
+    {
+        "id": "prod-11",
+        "name": "Frozen Mixed Vegetables",
+        "category": "frozen",
+        "price": 3.50,
+        "unit": "1 kg bag",
+        "rating": 4.4,
+        "description": "Diced carrots, sweet corn, peas, and green beans.",
+        "image": "images/mixed-veg.webp"
+    },
+    {
+        "id": "prod-12",
+        "name": "Tangy Tamarind Chutney",
+        "category": "condiment",
+        "price": 5.00,
+        "unit": "280 g jar",
+        "rating": 4.6,
+        "description": "Sweet and sour tamarind dip balanced with cumin and jaggery.",
+        "image": "images/tamarind.webp"
+    },
+    {
+        "id": "prod-13",
+        "name": "Frozen Whole Turkey",
+        "category": "frozen",
+        "price": 32.00,
+        "unit": "3.5 kg bird",
+        "rating": 4.8,
+        "description": "Young whole turkey, dressed and blast frozen.",
+        "image": "images/turkey.webp"
+    },
+    {
+        "id": "prod-14",
+        "name": "Whole Black Peppercorns",
+        "category": "condiment",
+        "price": 4.80,
+        "unit": "200 g jar",
+        "rating": 4.7,
+        "description": "Sun-dried whole black peppercorns with rich aroma.",
+        "image": "images/peppercorn.webp"
+    },
+    {
+        "id": "prod-15",
+        "name": "Frozen Sweet Corn Kernels",
+        "category": "frozen",
+        "price": 3.20,
+        "unit": "500 g bag",
+        "rating": 4.6,
+        "description": "Naturally sweet golden corn kernels.",
+        "image": "images/sweet-corn.webp"
+    }
+]

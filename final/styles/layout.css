@@ -1,0 +1,161 @@
+/* Header & Navigation */
+header {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    padding: 1rem 1.5rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.logo-container img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.logo-container h1 {
+    color: var(--color-bg);
+    font-size: 1.35rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+/* Hamburger Menu Button */
+#menu-btn {
+    background: none;
+    border: none;
+    color: var(--color-bg);
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0.2rem;
+    line-height: 1;
+    display: block;
+    aria-expanded: false;
+}
+
+#menu-btn:focus-visible {
+    outline: 2px solid var(--color-accent);
+}
+
+/* Navigation Drawer (Mobile) */
+nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--color-primary-dark);
+    box-shadow: var(--shadow-md);
+}
+
+nav.open {
+    display: block;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    color: var(--color-bg);
+    padding: 1rem 1.5rem;
+    display: block;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+nav a:hover,
+nav a:focus {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+}
+
+/* Wayfinding Active Link State */
+nav a.active {
+    background-color: var(--color-accent);
+    color: var(--color-white);
+    font-weight: 600;
+}
+
+/* Desktop Responsive Layout (Flex & Grid) */
+@media (min-width: 768px) {
+    #menu-btn {
+        display: none;
+    }
+
+    nav {
+        display: block;
+        position: static;
+        width: auto;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+
+    nav a {
+        border-bottom: none;
+        border-radius: var(--radius);
+        padding: 0.5rem 1rem;
+    }
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-top: auto;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #ffd984;
+    /* High contrast gold on deep green for AA accessibility */
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+footer a:hover {
+    color: var(--color-white);
+}
+
+/* Modal Dialog Layout & Backdrop */
+dialog {
+    margin: auto;
+    padding: 2rem;
+    border: 2px solid var(--color-accent);
+    border-radius: var(--radius);
+    max-width: 550px;
+    width: 90%;
+    background: var(--color-white);
+    box-shadow: var(--shadow-md);
+}
+
+dialog::backdrop {
+    background: rgba(15, 43, 36, 0.7);
+    backdrop-filter: blur(2px);
+}
