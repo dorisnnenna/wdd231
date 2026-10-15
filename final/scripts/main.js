@@ -150,3 +150,22 @@ document.addEventListener('DOMContentLoaded', () => {
         loadProducts();
     }
 });
+
+
+// 6. Handle Form Submission Query Parameters on submit.html
+const orderResults = document.querySelector('#order-results');
+if (orderResults) {
+    const params = new URLSearchParams(window.location.search);
+
+    const setName = document.querySelector('#display-name');
+    const setEmail = document.querySelector('#display-email');
+    const setPhone = document.querySelector('#display-phone');
+    const setProduct = document.querySelector('#display-product');
+    const setComments = document.querySelector('#display-comments');
+
+    if (setName && params.get('fullname')) setName.textContent = params.get('fullname');
+    if (setEmail && params.get('email')) setEmail.textContent = params.get('email');
+    if (setPhone && params.get('phone')) setPhone.textContent = params.get('phone') || 'None provided';
+    if (setProduct && params.get('product')) setProduct.textContent = params.get('product');
+    if (setComments && params.get('comments')) setComments.textContent = params.get('comments');
+}

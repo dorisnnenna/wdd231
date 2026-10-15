@@ -12,7 +12,7 @@
     <meta property="og:description"
         content="Thank you for submitting your order or inquiry to DNA Frozens & Condiments.">
     <meta property="og:image" content="https://dorisnnenna.github.io/wdd231/final/images/logo.webp">
-    <meta property="og:url" content="https://dorisnnenna.github.io/wdd231/submit.html">
+    <meta property="og:url" content="https://dorisnnenna.github.io/wdd231/final/submit.html">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -44,29 +44,17 @@
         </nav>
     </header>
 
-    <main class="products-main">
-        <h1 class="main-heading">Submission Details</h1>
+    <main class="contact-main">
+        <h1 class="main-heading">Order & Inquiry Confirmation</h1>
+        <p class="contact-subtext">Thank you! We've received your order and will get back soon:</p>
 
-        <!-- Category Filter -->
-        <div class="filter-wrapper">
-            <label for="category-filter" class="filter-label">Filter Category:</label>
-            <select id="category-filter" class="filter-select">
-                <option value="all">All Products</option>
-                <option value="frozen">Frozen Foods</option>
-                <option value="condiment">Condiments & Spices</option>
-            </select>
+        <div class="contact-form-box" id="order-results">
+            <p><strong>Full Name:</strong> <span id="display-name">N/A</span></p>
+            <p><strong>Email Address:</strong> <span id="display-email">N/A</span></p>
+            <p><strong>Phone Number:</strong> <span id="display-phone">N/A</span></p>
+            <p><strong>Product of Interest:</strong> <span id="display-product">N/A</span></p>
+            <p><strong>Order Details / Message:</strong> <span id="display-comments">N/A</span></p>
         </div>
-
-        <!-- Container for dynamic product cards -->
-        <div id="product-grid" class="product-grid">
-            <!-- Dynamic content from products.json will be loaded here -->
-        </div>
-
-        <!-- Modal Dialog for Product Details -->
-        <dialog id="product-modal" class="product-dialog">
-            <div id="modal-details"></div>
-            <button id="close-modal" class="modal-close-btn">Close</button>
-        </dialog>
     </main>
 
     <footer>
