@@ -4,47 +4,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Attributions and references for images, fonts, and resources used in the DNA Frozens & Condiments project.">
+    <meta name="author" content="Doris Nnenna Amuji">
     <title>Attributions | DNA Frozens & Condiments</title>
+
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="Attributions - DNA Frozens & Condiments">
+    <meta property="og:description"
+        content="View citations and acknowledgments for resources used in the DNA Frozens & Condiments project.">
+    <meta property="og:image" content="https://dorisnnenna.github.io/wdd231/images/logo.webp">
+    <meta property="og:url" content="https://dorisnnenna.github.io/wdd231/attributions.html">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <script type="module" src="scripts/main.js"></script>
 </head>
 
 <body>
-    <h1>Content & Resource Attributions</h1>
-    <p><a href="index.html">← Back to Home Page</a></p>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.webp" alt="DNA Frozens Logo" width="40" height="40">
+            <span class="brand-title">DNA Frozens & Condiments</span>
+        </div>
+        <button id="menu-btn" aria-label="Toggle Navigation">&#9776;</button>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Order / Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <hr>
+    <main>
+        <h1 class="main-heading">Content & Resource Attributions</h1>
+        <p><a href="index.html">&larr; Back to Home Page</a></p>
 
-    <h2>Brand Identity & Graphics</h2>
-    <ul>
-        <li><strong>Brand Logo:</strong> Custom brand logo (<code>images/logo.webp</code>) created for DNA Frozens &
-            Condiments.</li>
-        <li><strong>Favicon:</strong> Custom site favicon (<code>favicon.ico</code>) designed for browser tab
-            recognition.</li>
-    </ul>
+        <hr>
 
-    <h2>Product Data & Imagery</h2>
-    <ul>
-        <li><strong>Product Catalog Data:</strong> Product titles, descriptions, pricing, and category structures in
-            <code>data/products.json</code> were authored specifically for this project.
-        </li>
-        <li><strong>Product Images:</strong> All 15 product images in the <code>images/</code> directory sourced from
-            royalty-free stock imagery platforms (<a href="https://unsplash.com" target="_blank">Unsplash</a> and <a
-                href="https://pexels.com" target="_blank">Pexels</a>) for educational demonstration under free content
-            licenses.</li>
-    </ul>
+        <section class="attribution-section">
+            <h2>Brand Identity & Graphics</h2>
+            <ul>
+                <li><strong>Brand Logo:</strong> Custom brand logo (<code>images/logo.webp</code>) created for DNA
+                    Frozens & Condiments.</li>
+                <li><strong>Favicon:</strong> Custom site favicon (<code>favicon.ico</code>) designed for browser tab
+                    recognition.</li>
+            </ul>
+        </section>
 
-    <h2>Fonts, Icons & Tools</h2>
-    <ul>
-        <li>Typography supplied by <a href="https://fonts.google.com/" target="_blank">Google Fonts</a> (Playfair
-            Display and Poppins).</li>
-        <li>Hamburger menu icon standard UTF-8 symbol (<code>&#9776;</code>).</li>
-        <li>Image compression and WebP conversion performed using <a href="https://squoosh.app/"
-                target="_blank">Squoosh</a>.</li>
-    </ul>
+        <section class="attribution-section">
+            <h2>Product Data & Imagery</h2>
+            <ul>
+                <li><strong>Product Catalog Data:</strong> Product titles, descriptions, pricing, and category
+                    structures in <code>data/products.json</code> were authored specifically for this project.</li>
+                <li><strong>Product Images:</strong> All 15 product images in the <code>images/</code> directory sourced
+                    from royalty-free stock imagery platforms (<a href="https://unsplash.com" target="_blank"
+                        rel="noopener">Unsplash</a> and <a href="https://pexels.com" target="_blank"
+                        rel="noopener">Pexels</a>) for educational demonstration under free content licenses.</li>
+            </ul>
+        </section>
 
-    <h2>Inspirational Quote</h2>
-    <ul>
-        <li>Site Plan inspirational quote authored by Dieter F. Uchtdorf ("Happiness, Your Heritage").</li>
-    </ul>
+        <section class="attribution-section">
+            <h2>Fonts, Icons & Tools</h2>
+            <ul>
+                <li>Typography supplied by <a href="https://fonts.google.com/" target="_blank" rel="noopener">Google
+                        Fonts</a> (Playfair Display and Poppins).</li>
+                <li>Hamburger menu icon standard UTF-8 symbol (<code>&#9776;</code>).</li>
+                <li>Image compression and WebP conversion performed using <a href="https://squoosh.app/" target="_blank"
+                        rel="noopener">Squoosh</a>.</li>
+            </ul>
+        </section>
+
+        <section class="attribution-section">
+            <h2>Inspirational Quote</h2>
+            <ul>
+                <li>Site Plan inspirational quote authored by Dieter F. Uchtdorf ("Happiness, Your Heritage").</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> DNA Frozens & Condiments | Doris Nnenna Amuji</p>
+        <p class="footer-modified">Last Modified: <span id="last-modified"></span></p>
+        <p class="footer-links">
+            <a href="attributions.html">Attributions</a> |
+            <a href="https://www.youtube.com/watch?v=BUa4QylPRnk" target="_blank" rel="noopener">Video Demonstration</a>
+        </p>
+    </footer>
 </body>
 
 </html>
